@@ -1,0 +1,169 @@
+@media (max-width:1500px) {
+    .info__container {
+        position: static;
+    }
+    .info__box {
+        width: 100%;
+    }
+    .header__nav-item {
+        margin-right: 50px;
+    }
+}
+
+
+
+@media (max-width:1300px) {
+    .container {
+        max-width: 1670px;
+        width: 90%;
+    }
+
+
+
+    .header__container {
+        flex-direction: column;
+    }
+    .header__nav {
+        margin-top: 20px;
+    }
+    .header__nav-item {
+        margin-right: 20px;
+    }
+    .header__nav-item:first-child {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:1170px) {
+    .container {
+        max-width: 750px;
+        width: 95%;
+    }
+
+
+    .intro__img {
+        width: 100%;
+    }
+    .intro__container {
+        position: static;
+    }
+    .intro__box {
+        width: 100%;
+    }
+
+
+
+    .quality__container {
+        flex-direction: column;
+    }
+    .quality__content {
+        width: 100%;
+    }
+    .quality__content-item {
+        margin-bottom: 50px;
+    }
+    .quality__img {
+        margin-top: 40px;
+        margin-left: 0;
+        width: 80%;
+    }
+    .quality__card {
+        width: 80%;
+    }
+
+
+
+    .service__card {
+        margin-right: 20px;
+        margin-top: 20px;
+        width: 40%;
+        max-width: 600px;
+        min-width: 320px;
+    }
+    .service__info {
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 750px;
+        width: 95%;
+    }
+
+
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__nav-item {
+        margin-top: 10px;
+    }
+    .header__logo {
+        padding: 20px 30px;
+        font-size: 60px;
+    }
+
+    .intro__title {
+        font-style: 60px;
+    }
+    .intro__form {
+        flex-direction: column;
+        align-items: start;
+    }
+    .intro__btn {
+        margin-top: 20px;
+    }
+
+
+    .service__card {
+        margin: 0;
+        margin-top: 30px;
+        width: 100%;
+        min-width: 200px;
+        max-width: 100%;
+    }
+    .service__title {
+        font-size: 55px;
+        min-width: 100%;
+    }
+
+
+    .quality__img {
+        width: 100%;
+    }
+    .quality__card-container {
+        margin-top: 20px;
+    }
+    .quality__card {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .info_switch-item {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .login__input {
+        width: 100%;
+    }
+    .login__title {
+        font-size: 60px;
+    }
+    .login__btn {
+        padding: 20px 50px;
+        margin-top: 30px;
+    }
+
+
+    .footer__c {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
